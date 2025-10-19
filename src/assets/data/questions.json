@@ -1,114 +1,422 @@
 [
   {
     "id": 1,
-    "text": "Qual é a capital do Brasil?",
+    "text": "Qual é a definição de despachante operacional de voo segundo a RBAC 65?",
     "options": [
-      "Rio de Janeiro",
-      "São Paulo",
-      "Brasília",
-      "Salvador"
+      "Pessoa responsável pela limpeza da aeronave",
+      "Pessoa habilitada pela ANAC a exercer a supervisão e a responsabilidade técnica pela preparação e pelo acompanhamento da execução do voo",
+      "Pessoa responsável pelo embarque de passageiros",
+      "Piloto auxiliar durante o voo"
     ],
-    "correctAnswer": 2,
-    "explanation": "Brasília foi inaugurada em 1960 como a nova capital do Brasil.",
-    "category": "Geografia",
+    "correctAnswer": 1,
+    "explanation": "Conforme RBAC 65, o despachante operacional de voo é a pessoa habilitada pela ANAC a exercer a supervisão e a responsabilidade técnica pela preparação e pelo acompanhamento da execução do voo.",
+    "category": "Legislação",
     "difficulty": "easy"
   },
   {
     "id": 2,
-    "text": "Qual é o maior planeta do sistema solar?",
+    "text": "Qual o prazo de validade do CMA (Certificado Médico Aeronáutico) para despachante operacional de voo?",
     "options": [
-      "Terra",
-      "Júpiter",
-      "Saturno",
-      "Marte"
+      "12 meses",
+      "24 meses",
+      "36 meses",
+      "6 meses"
     ],
     "correctAnswer": 1,
-    "explanation": "Júpiter é o maior planeta do sistema solar, com diâmetro de aproximadamente 142.984 km.",
-    "category": "Astronomia",
+    "explanation": "O CMA para despachante operacional de voo tem validade de 24 meses, conforme estabelecido pela ANAC.",
+    "category": "Legislação",
     "difficulty": "easy"
   },
   {
     "id": 3,
-    "text": "Quem pintou a Mona Lisa?",
+    "text": "O que significa a sigla NOTAM?",
     "options": [
-      "Vincent van Gogh",
-      "Pablo Picasso",
-      "Leonardo da Vinci",
-      "Michelangelo"
+      "Notice to Air Missions",
+      "Notice to Airmen",
+      "Notification of Air Movement",
+      "Notice of Air Management"
     ],
-    "correctAnswer": 2,
-    "explanation": "A Mona Lisa foi pintada por Leonardo da Vinci entre 1503 e 1506.",
-    "category": "Arte",
-    "difficulty": "medium"
+    "correctAnswer": 1,
+    "explanation": "NOTAM significa Notice to Airmen, que são avisos distribuídos por meio de telecomunicações contendo informações sobre o estabelecimento, condição ou mudança em qualquer instalação aeronáutica, serviço, procedimento ou perigo.",
+    "category": "Comunicações",
+    "difficulty": "easy"
   },
   {
     "id": 4,
-    "text": "Quantos elementos tem a tabela periódica?",
+    "text": "Qual a altitude de transição no Brasil?",
     "options": [
-      "92",
-      "118",
-      "108",
-      "126"
+      "10.000 pés",
+      "12.000 pés",
+      "14.000 pés",
+      "18.000 pés"
     ],
-    "correctAnswer": 1,
-    "explanation": "Atualmente a tabela periódica possui 118 elementos confirmados.",
-    "category": "Química",
+    "correctAnswer": 2,
+    "explanation": "No Brasil, a altitude de transição é estabelecida em 14.000 pés, onde se faz a mudança do altímetro ajustado para QNH para o ajustado para QNE (29,92 inHg ou 1013,2 hPa).",
+    "category": "Navegação",
     "difficulty": "medium"
   },
   {
     "id": 5,
-    "text": "Qual é o idioma mais falado no mundo?",
+    "text": "O que é o plano de voo?",
     "options": [
-      "Inglês",
-      "Espanhol",
-      "Mandarim",
-      "Hindi"
+      "Documento que especifica informações relativas a uma operação de voo planejada",
+      "Lista de passageiros a bordo",
+      "Roteiro turístico do voo",
+      "Plano de emergência da aeronave"
     ],
-    "correctAnswer": 2,
-    "explanation": "O mandarim é o idioma mais falado no mundo, com mais de 1 bilhão de falantes.",
-    "category": "Cultura Geral",
-    "difficulty": "medium"
+    "correctAnswer": 0,
+    "explanation": "O plano de voo é um documento que especifica informações relativas a uma operação de voo planejada, contendo dados como rota, altitude, velocidade, combustível, alternativas, etc.",
+    "category": "Operações",
+    "difficulty": "easy"
   },
   {
     "id": 6,
-    "text": "Em que ano o homem pisou na Lua pela primeira vez?",
+    "text": "Qual a unidade de medida utilizada para vento na aviação?",
     "options": [
-      "1965",
-      "1969",
-      "1972",
-      "1958"
+      "km/h",
+      "m/s",
+      "nós",
+      "mph"
     ],
-    "correctAnswer": 1,
-    "explanation": "Neil Armstrong pisou na Lua em 20 de julho de 1969 na missão Apollo 11.",
-    "category": "História",
+    "correctAnswer": 2,
+    "explanation": "Na aviação, o vento é medido em nós (knots), que equivalem a uma milha náutica por hora.",
+    "category": "Meteorologia",
     "difficulty": "easy"
   },
   {
     "id": 7,
-    "text": "Qual é o elemento químico mais abundante no universo?",
+    "text": "O que significa a sigla METAR?",
     "options": [
-      "Oxigênio",
-      "Carbono",
-      "Hidrogênio",
-      "Hélio"
+      "Meteorological Aviation Report",
+      "Meteorological Terminal Aviation Routine Weather Report",
+      "Meteorological Air Report",
+      "Meteorological Terminal Air Routine"
     ],
-    "correctAnswer": 2,
-    "explanation": "O hidrogênio é o elemento mais abundante, constituindo cerca de 75% da massa elementar do universo.",
-    "category": "Química",
-    "difficulty": "hard"
+    "correctAnswer": 1,
+    "explanation": "METAR significa Meteorological Terminal Aviation Routine Weather Report, que é o relatório meteorológico aeronáutico de rotina para um aeródromo específico.",
+    "category": "Meteorologia",
+    "difficulty": "medium"
   },
   {
     "id": 8,
-    "text": "Quem escreveu 'Dom Quixote'?",
+    "text": "Qual a pressão atmosférica padrão ao nível do mar?",
     "options": [
-      "Miguel de Cervantes",
-      "William Shakespeare",
-      "Friedrich Nietzsche",
-      "Gabriel García Márquez"
+      "29,92 inHg ou 1013,2 hPa",
+      "30,00 inHg ou 1015,0 hPa",
+      "29,50 inHg ou 1000,0 hPa",
+      "28,92 inHg ou 980,0 hPa"
     ],
     "correctAnswer": 0,
-    "explanation": "Dom Quixote foi escrito por Miguel de Cervantes e publicado em 1605.",
-    "category": "Literatura",
+    "explanation": "A pressão atmosférica padrão ao nível do mar é de 29,92 polegadas de mercúrio (inHg) ou 1013,2 hectopascais (hPa), utilizada como referência para o ajuste QNE do altímetro.",
+    "category": "Meteorologia",
     "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "text": "O que é weight and balance?",
+    "options": [
+      "Sistema de controle de bagagem",
+      "Cálculo do peso e balanceamento da aeronave",
+      "Balanço de combustível",
+      "Controle de peso dos passageiros"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Weight and balance refere-se ao cálculo do peso e balanceamento da aeronave, assegurando que o peso total não exceda os limites máximos e que o centro de gravidade esteja dentro dos limites estabelecidos.",
+    "category": "Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "text": "Qual a finalidade do cálculo de combustível?",
+    "options": [
+      "Determinar o custo do voo",
+      "Garantir combustível suficiente para o voo até o destino, incluindo alternativas e reservas",
+      "Controlar o consumo médio da frota",
+      "Calcular o imposto sobre combustível"
+    ],
+    "correctAnswer": 1,
+    "explanation": "O cálculo de combustível tem como finalidade garantir que a aeronave transporte combustível suficiente para o voo até o destino, incluindo alternativas, reservas regulamentares e contingências.",
+    "category": "Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "text": "O que significa a sigla ETOPS?",
+    "options": [
+      "Extended Twin Operations",
+      "Extended Operations",
+      "Engine Time Operating System",
+      "Emergency Technical Operations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ETOPS significa Extended Operations, que são operações de aeronaves bimotores em rotas que, em algum ponto, estão a mais de 60 minutos de voo de um aeródromo adequado.",
+    "category": "Operações",
+    "difficulty": "hard"
+  },
+  {
+    "id": 12,
+    "text": "Qual a diferença entre TAF e METAR?",
+    "options": [
+      "TAF é para navegação, METAR para comunicações",
+      "TAF é uma previsão, METAR é um relatório de condições atuais",
+      "TAF é para voos internacionais, METAR para voos domésticos",
+      "Não há diferença, são a mesma coisa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TAF (Terminal Aerodrome Forecast) é uma previsão meteorológica para um aeródromo, enquanto METAR é um relatório das condições meteorológicas atuais no aeródromo.",
+    "category": "Meteorologia",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "text": "O que é um aeródromo alternativo?",
+    "options": [
+      "Aeródromo de destino do voo",
+      "Aeródromo de partida do voo",
+      "Aeródromo especificado no plano de voo para o qual uma aeronave pode prosseguir quando se torna impossível pousar no aeródromo de destino",
+      "Aeródromo para treinamento de pilotos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Aeródromo alternativo é aquele especificado no plano de voo para o qual uma aeronave pode prosseguir quando se torna impossível pousar no aeródromo de destino.",
+    "category": "Operações",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "text": "Qual a velocidade do som ao nível do mar em condições padrão?",
+    "options": [
+      "661 nós",
+      "573 nós",
+      "450 nós",
+      "700 nós"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A velocidade do som ao nível do mar em condições padrão (ISA) é de aproximadamente 661 nós (1.225 km/h).",
+    "category": "Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "text": "O que significa a sigla RVSM?",
+    "options": [
+      "Reduced Vertical Separation Minimum",
+      "Reduced Velocity System Management",
+      "Route Vertical Separation Minimum",
+      "Reduced Vertical System Management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RVSM significa Reduced Vertical Separation Minimum, que reduz a separação vertical mínima entre FL290 e FL410 de 2.000 pés para 1.000 pés.",
+    "category": "Navegação",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "text": "Qual a finalidade do sistema TCAS?",
+    "options": [
+      "Prevenir colisões no ar entre aeronaves",
+      "Otimizar o consumo de combustível",
+      "Melhorar as comunicações com a torre",
+      "Controlar a temperatura da cabine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCAS (Traffic Alert and Collision Avoidance System) é um sistema a bordo da aeronave projetado para prevenir colisões no ar entre aeronaves.",
+    "category": "Sistemas",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "text": "O que é o limite máximo de pouso?",
+    "options": [
+      "Peso máximo para decolagem",
+      "Peso máximo com que uma aeronave pode pousar",
+      "Peso máximo zero combustível",
+      "Peso máximo de combustível"
+    ],
+    "correctAnswer": 1,
+    "explanation": "O limite máximo de pouso é o peso máximo com que uma aeronave pode pousar, considerando limitações estruturais e de performance.",
+    "category": "Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "text": "Qual a diferença entre QNH e QFE?",
+    "options": [
+      "QNH refere-se à elevação do aeródromo, QFE à pressão ao nível do mar",
+      "QNH é a pressão reduzida ao nível do mar, QFE é a pressão no nível do aeródromo",
+      "QNH é para voos internacionais, QFE para voos domésticos",
+      "Não há diferença prática"
+    ],
+    "correctAnswer": 1,
+    "explanation": "QNH é o valor de pressão atmosférica reduzido ao nível do mar, enquanto QFE é a pressão atmosférica no nível do aeródromo.",
+    "category": "Navegação",
+    "difficulty": "hard"
+  },
+  {
+    "id": 19,
+    "text": "O que é um clearway?",
+    "options": [
+      "Área livre de obstáculos no final da pista",
+      "Área de estacionamento de aeronaves",
+      "Pista auxiliar para emergências",
+      "Área de taxiamento"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clearway é uma área definida no final da pista, isenta de obstáculos, que permite que a aeronave atinja a altura necessária durante a decolagem.",
+    "category": "Aeródromos",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "text": "Qual a função principal do despachante operacional de voo?",
+    "options": [
+      "Operar os sistemas de rádio da aeronave",
+      "Preparar e autorizar a liberação do voo, garantindo sua segurança operacional",
+      "Carregar as bagagens nos compartimentos",
+      "Fornecer refeições aos passageiros"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A função principal do despachante operacional de voo é preparar e autorizar a liberação do voo, garantindo que todos os aspectos operacionais estejam em conformidade com as regulamentações para assegurar a segurança do voo.",
+    "category": "Legislação",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "text": "O que significa a sigla MEL?",
+    "options": [
+      "Minimum Equipment List",
+      "Maximum Equipment Level",
+      "Minimum Engine Life",
+      "Maximum Elevation Limit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MEL significa Minimum Equipment List, que é uma lista que define quais equipamentos podem estar inoperantes e sob quais condições a aeronave ainda pode operar com segurança.",
+    "category": "Sistemas",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "text": "Qual a altitude de voo onde é obrigatório o uso de máscaras de oxigênio?",
+    "options": [
+      "Acima de 10.000 pés",
+      "Acima de 12.500 pés por mais de 30 minutos",
+      "Acima de 15.000 pés",
+      "Acima de 18.000 pés"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acima de 12.500 pés de altitude, é obrigatório o uso de máscaras de oxigênio para a tripulação se permanecerem por mais de 30 minutos nessa condição.",
+    "category": "Fisiologia",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "text": "O que é o tempo de voo EET?",
+    "options": [
+      "Estimated Elapsed Time",
+      "Emergency Escape Time",
+      "Engine Efficiency Time",
+      "Estimated Entry Time"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EET significa Estimated Elapsed Time, que é o tempo estimado de voo entre dois pontos.",
+    "category": "Navegação",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "text": "Qual a diferença entre MTOW e MLW?",
+    "options": [
+      "MTOW é peso máximo de decolagem, MLW é peso máximo de pouso",
+      "MTOW é peso máximo zero combustível, MLW é peso máximo de decolagem",
+      "MTOW é peso máximo de pouso, MLW é peso máximo de decolagem",
+      "São a mesma coisa"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MTOW (Maximum Takeoff Weight) é o peso máximo para decolagem, enquanto MLW (Maximum Landing Weight) é o peso máximo para pouso.",
+    "category": "Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "text": "O que é uma área de espera (holding pattern)?",
+    "options": [
+      "Área no aeroporto para embarque de passageiros",
+      "Maneobra padrão para aeronaves aguardarem liberação para procedimento de aproximação ou para continuar o voo",
+      "Área de estacionamento de aeronaves",
+      "Local onde as aeronaves aguardam manutenção"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Holding pattern é uma manobra padrão prescrita que mantém a aeronave dentro de uma área específica enquanto aguarda liberação adicional.",
+    "category": "Navegação",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "text": "Qual a unidade de medida de distância na navegação aérea?",
+    "options": [
+      "Quilômetro",
+      "Milha terrestre",
+      "Milha náutica",
+      "Metro"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A unidade de medida de distância na navegação aérea é a milha náutica (NM), que equivale a 1.852 metros.",
+    "category": "Navegação",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "text": "O que significa a sigla FIR?",
+    "options": [
+      "Flight Information Region",
+      "Flight International Route",
+      "Fuel Information Report",
+      "Flight Instrument Reading"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FIR significa Flight Information Region, que é um espaço aéreo de dimensões definidas dentro do qual são fornecidos serviços de informação de voo e alerta.",
+    "category": "Navegação",
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "text": "Qual a finalidade do cálculo de performance de decolagem?",
+    "options": [
+      "Determinar a velocidade de cruzeiro",
+      "Calcular o consumo de combustível",
+      "Garantir que a aeronave possa decolar com segurança dentro dos limites da pista disponível",
+      "Estimar o tempo de voo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "O cálculo de performance de decolagem garante que a aeronave possa decolar com segurança dentro dos limites da pista disponível, considerando peso, temperatura, pressão, vento e obstáculos.",
+    "category": "Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "text": "O que é o limite de CG (Center of Gravity)?",
+    "options": [
+      "Limite de carga de combustível",
+      "Limite de peso máximo de bagagem",
+      "Limite de posição do centro de gravidade da aeronave",
+      "Limite de altitude de cruzeiro"
+    ],
+    "correctAnswer": 2,
+    "explanation": "O limite de CG refere-se aos limites de posição do centro de gravidade da aeronave, que devem ser respeitados para garantir a estabilidade e controlabilidade da aeronave.",
+    "category": "Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "text": "Qual a importância da análise meteorológica para o despachante de voo?",
+    "options": [
+      "Apenas para cumprir exigências burocráticas",
+      "Para determinar o preço das passagens",
+      "Para garantir a segurança do voo através da identificação de condições meteorológicas adversas",
+      "Para escolher a rota mais curta"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A análise meteorológica é crucial para garantir a segurança do voo, permitindo ao despachante identificar condições adversas, planejar rotas alternativas e tomar decisões fundamentadas sobre a liberação do voo.",
+    "category": "Meteorologia",
+    "difficulty": "easy"
   }
 ]
