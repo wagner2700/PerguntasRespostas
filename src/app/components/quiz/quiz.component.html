@@ -1,0 +1,48 @@
+<div class="quiz-container" *ngIf="!quizCompleted && questions.length > 0">
+  <div class="quiz-header">
+    <div class="progress">
+      <span class="progress-text">Pergunta {{ currentQuestionIndex + 1 }} de {{ totalQuestions }}</span>
+      <div class="progress-bar">
+        <div 
+          class="progress-fill" 
+          [style.width]="((currentQuestionIndex + 1) / totalQuestions) * 100 + '%'">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="question-card">
+    <h3 class="question-text">{{ questions[currentQuestionIndex].text }}</h3>
+    
+    <div class="options">
+      <div 
+        *ngFor="let option of questions[currentQuestionIndex].options; let i = index" 
+        class="option" 
+        [class.selected]="selectedAnswer === i"
+        (click)="selectAnswer(i)">
+        <span class="option-letter">{{ getOptionLetter(i) }}</span>
+        <span class="option-text">{{ option }}</span>
+      </div>
+    </div>
+
+    <button 
+      class="next-btn" 
+      (click)="nextQuestion()" 
+      [disabled]="selectedAnswer === null"
+      [class.disabled]="selectedAnswer === null">
+      {{ currentQuestionIndex < totalQuestions - 1 ? 'Próxima Pergunta' : 'Ver Resultados' }}
+    </button>
+  </div>
+</div>
+
+<app-results 
+  *ngIf="quizCompleted" 
+  [score]="score" 
+  [totalQuestions]="totalQuestions"
+  (restart)="restartQuiz()">
+</app-results>
+
+<div *ngIf="questions.length === 0 && !quizCompleted" class="loading">
+  <div class="loading-spinner"></div>
+  <p>Carregando perguntas...</p>
+</div>

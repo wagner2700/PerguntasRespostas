@@ -1,0 +1,43 @@
+<div class="results-container">
+  <div class="results-card">
+    <div class="results-header">
+      <h2>Quiz Concluído!</h2>
+      <p>Confira seu desempenho</p>
+    </div>
+    
+    <div class="score-display">
+      <div class="score-circle" [style.--percentage]="percentage" [style.--color]="performanceColor">
+        <div class="circle-background"></div>
+        <div class="circle-progress"></div>
+        <div class="circle-content">
+          <span class="percentage">{{ percentage }}%</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="score-details">
+      <p class="performance" [style.color]="performanceColor">{{ performanceMessage }}</p>
+      <div class="stats">
+        <div class="stat correct">
+          <span class="stat-number">{{ score }}</span>
+          <span class="stat-label">Acertos</span>
+        </div>
+        <div class="stat incorrect">
+          <span class="stat-number">{{ totalQuestions - score }}</span>
+          <span class="stat-label">Erros</span>
+        </div>
+        <div class="stat total">
+          <span class="stat-number">{{ totalQuestions }}</span>
+          <span class="stat-label">Total</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="actions">
+      <button class="restart-btn" (click)="restartQuiz()">
+        <span>↻</span>
+        Fazer Quiz Novamente
+      </button>
+    </div>
+  </div>
+</div>

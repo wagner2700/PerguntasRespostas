@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "text": "Qual é a capital do Brasil?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Brasília foi inaugurada em 1960 como a nova capital do Brasil.",
+    "category": "Geografia",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "text": "Qual é o maior planeta do sistema solar?",
+    "options": [
+      "Terra",
+      "Júpiter",
+      "Saturno",
+      "Marte"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Júpiter é o maior planeta do sistema solar, com diâmetro de aproximadamente 142.984 km.",
+    "category": "Astronomia",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "text": "Quem pintou a Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Mona Lisa foi pintada por Leonardo da Vinci entre 1503 e 1506.",
+    "category": "Arte",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "text": "Quantos elementos tem a tabela periódica?",
+    "options": [
+      "92",
+      "118",
+      "108",
+      "126"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Atualmente a tabela periódica possui 118 elementos confirmados.",
+    "category": "Química",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "text": "Qual é o idioma mais falado no mundo?",
+    "options": [
+      "Inglês",
+      "Espanhol",
+      "Mandarim",
+      "Hindi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "O mandarim é o idioma mais falado no mundo, com mais de 1 bilhão de falantes.",
+    "category": "Cultura Geral",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "text": "Em que ano o homem pisou na Lua pela primeira vez?",
+    "options": [
+      "1965",
+      "1969",
+      "1972",
+      "1958"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Neil Armstrong pisou na Lua em 20 de julho de 1969 na missão Apollo 11.",
+    "category": "História",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "text": "Qual é o elemento químico mais abundante no universo?",
+    "options": [
+      "Oxigênio",
+      "Carbono",
+      "Hidrogênio",
+      "Hélio"
+    ],
+    "correctAnswer": 2,
+    "explanation": "O hidrogênio é o elemento mais abundante, constituindo cerca de 75% da massa elementar do universo.",
+    "category": "Química",
+    "difficulty": "hard"
+  },
+  {
+    "id": 8,
+    "text": "Quem escreveu 'Dom Quixote'?",
+    "options": [
+      "Miguel de Cervantes",
+      "William Shakespeare",
+      "Friedrich Nietzsche",
+      "Gabriel García Márquez"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dom Quixote foi escrito por Miguel de Cervantes e publicado em 1605.",
+    "category": "Literatura",
+    "difficulty": "medium"
+  }
+]
